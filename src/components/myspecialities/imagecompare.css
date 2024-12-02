@@ -1,0 +1,33 @@
+.image-compare-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /* cursor: ew-resize; */
+  }
+  
+  .right-image,
+  .left-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .left-image-wrapper {
+    position: absolute;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .slider-handle {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 4px;
+    background-color: #fff;
+    border: 1px solid #000;
+    cursor: ew-resize;
+    transform: translateX(-50%);
+  }
+  

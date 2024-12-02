@@ -1,0 +1,102 @@
+div {
+    box-sizing: border-box;
+}
+
+#work-heading {
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+#myWorkSect {
+    background-image: url('/assets/images/snow\ sarfa.JPG');
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+
+    /* width: 100%; */
+    background-repeat: no-repeat;
+    height: calc(100vh + 150px);
+    padding-top: 1.5rem !important;
+    background-blend-mode: soft-light;
+
+}
+
+#myWorkSect .containerr {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    height: fit-content;
+    margin-top: 40px;
+    /* border: 1px solid #000000; */
+}
+
+.circle {
+    /* border: 5px solid #ff0000; */
+    background-color: #021f26;
+    width: 22vw;
+    height: 22vw;
+
+    border-radius: 1000px;
+    margin: 0.5em;
+}
+
+.aligner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+}
+
+.div-work {
+    width: 100%;
+}
+
+.div-work h2 {
+    font-size: 2.6vw;
+}
+
+.div-work p {
+    font-size: 1vw;
+}
+
+.work-icons {
+    font-size: 8vw;
+    width: -webkit-fill-available;
+}
+
+@media screen and (max-width:980px) {
+    #myWorkSect {
+
+        background-position: bottom;
+        background-size: cover;
+        /* background-repeat: no-repeat; */
+        height: calc(100vh + 250px);
+        /* padding-top: 1.5rem !important; */
+    }
+
+    .circle {
+        /* border: 5px solid #ff0000; */
+        background-color: #021f26;
+        width: 44vw;
+        height: 44vw;
+
+        border-radius: 1000px;
+        margin: 0.5em;
+    }
+
+    .work-icons {
+        font-size: 12vw;
+    }
+
+    .div-work h2 {
+        font-size: 5vw;
+    }
+
+    .div-work p {
+        font-size: 2vw;
+    }
+}

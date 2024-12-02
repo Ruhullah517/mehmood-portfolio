@@ -1,0 +1,11 @@
+.frame-div {
+    padding: 50px;
+    background-color: #021f26;
+}
+
+@media screen and (max-width:980px) {
+    .frame-div {
+        padding: 0px;
+        background-color: #24242c;
+    }
+}
